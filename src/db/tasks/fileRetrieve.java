@@ -5,6 +5,8 @@ import java.sql.*;
 import java.util.*;
 public class fileRetrieve {
     public static void main(String[] args) {
+    	
+    		
             List data = new ArrayList();
             try {
                     Connection con = null;
@@ -27,6 +29,8 @@ public class fileRetrieve {
                     st.close();
             } catch (Exception e) {
                     System.out.println(e);
+                    e.printStackTrace();
+                    
             }
     }
 
